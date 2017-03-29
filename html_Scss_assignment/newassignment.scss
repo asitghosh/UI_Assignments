@@ -1,0 +1,147 @@
+@mixin block($ds, $jc, $ls) {
+	display: $ds;
+	justify-content: $jc;
+	list-style: $ls;
+}
+
+.header-ul {
+	list-style: none;
+	display: flex;
+	width: 100%;
+
+	&-li {
+		background: url("Screen Shot 2017-02-23 at 9.16.10 PM.png");
+		height: 100px;
+		width: 150px;
+		display: block;
+		background-size: 100% 100%;
+		background-color: #d62a34;
+	}
+
+	&-li1 {
+		display: flex;
+		flex-direction: column;
+		width: 81%;
+		margin-left: 40px;
+		padding-right: 109px;
+
+		&-ul {
+			background-color: #d6d6d6;
+
+			@include block(flex, space-around, none);
+
+			width: 96%;
+			padding-right: 10%;
+			margin-left: -40px;
+			height: 34px;
+
+			&-li {
+				margin-top: 10px;
+
+				&-search {
+					margin-top: 10px;
+					color: #ffffff;
+				}
+
+				&-getaquote {
+					background-color: #d62a34;
+					margin-top: 10px;
+					color: #ffffff;
+				}
+			}
+		}
+
+		&-ul1 {
+			background-color: #ffffff;
+
+			@include block(flex, space-around, none);
+
+			height: 60px;
+			align-items: center;
+			width: 95%;
+
+			&-li {
+				background-color: #d62a34;
+				color: #ffffff;
+			}
+		}
+	}
+}
+
+.top-left-slave1-li-style2 {
+	background-color: #d62a34;
+	margin-top: 10px;
+	color: #ffffff;
+}
+
+.section-div {
+	background-color: #d62a34;
+	margin-left: 41px;
+	text-align: center;
+	margin-top: 150px;
+	height: 50px;
+	padding: 20px;
+
+	&-ul {
+		list-style: none;
+
+		&-li {
+			color: #ffffff;
+		}
+	}
+}
+
+.footer {
+	background-color: #57585b;
+	margin-top: -20px;
+	margin-left: 41px;
+
+	&-ul {
+		list-style: none;
+		margin-left: 144px;
+	}
+
+	&-image {
+		background: url("Screen Shot 2017-02-23 at 9.40.47 PM.png");
+		height: 80px;
+		width: 120px;
+		display: block;
+		background-size: 100% 100%;
+
+		&1 {
+			background: url("Screen Shot 2017-02-25 at 12.48.06 AM.png");
+			height: 38px;
+			width: 107px;
+			margin-left: 1200px;
+			display: block;
+			background-size: 100% 100%;
+		}
+	}
+
+	&-div {
+		display: flex;
+		margin-left: 133px;
+		justify-content: space-around;
+		width: 1025px;
+
+		&-ul {
+			list-style: none;
+
+			&-li {
+				color: #ededed;
+				text-decoration: none;
+
+				&1 {
+					color: #676769;
+					text-decoration: none;
+				}
+			}
+		}
+
+		&1 {
+			display: flex;
+			color: #676769;
+			margin-left: 200px;
+		}
+	}
+}
