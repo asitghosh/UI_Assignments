@@ -2,8 +2,8 @@
 	list-style: none;
 	display: flex;
 	flex-direction: row;
-	background-color: black;
-	color: #D2D5D9;
+	background-color: #000000;
+	color: #d2d5d9;
 	padding: 10px;
 
 	&-image {
@@ -20,7 +20,7 @@
 
 	&-ul-li-myapps {
 		margin-left: 11px;
-		background-color: black;
+		background-color: #000000;
 	}
 
 	&-ul-li-marketplace {
@@ -33,6 +33,6 @@
 
 	&-ul-li-profilename {
 		margin-left: 11px;
-		background-color: black;
+		background-color: #000000;
 	}
 }
