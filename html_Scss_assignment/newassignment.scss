@@ -15,7 +15,7 @@
 		width: 150px;
 		display: block;
 		background-size: 100% 100%;
-		background-color: #D62A34;
+		background-color: #d62a34;
 	}
 
 	&-li1 {
@@ -26,7 +26,7 @@
 		padding-right: 109px;
 
 		&-ul {
-			background-color: #D6D6D6;
+			background-color: #d6d6d6;
 
 			@include block(flex, space-around, none);
 
@@ -40,19 +40,19 @@
 
 				&-search {
 					margin-top: 10px;
-					color: white;
+					color: #ffffff;
 				}
 
 				&-getaquote {
-					background-color: #D62A34;
+					background-color: #d62a34;
 					margin-top: 10px;
-					color: white;
+					color: #ffffff;
 				}
 			}
 		}
 
 		&-ul1 {
-			background-color: white;
+			background-color: #ffffff;
 
 			@include block(flex, space-around, none);
 
@@ -61,21 +61,21 @@
 			width: 95%;
 
 			&-li {
-				background-color: #D62A34;
-				color: white;
+				background-color: #d62a34;
+				color: #ffffff;
 			}
 		}
 	}
 }
 
 .top-left-slave1-li-style2 {
-	background-color: #D62A34;
+	background-color: #d62a34;
 	margin-top: 10px;
-	color: white;
+	color: #ffffff;
 }
 
 .section-div {
-	background-color: #D62A34;
+	background-color: #d62a34;
 	margin-left: 41px;
 	text-align: center;
 	margin-top: 150px;
@@ -86,13 +86,13 @@
 		list-style: none;
 
 		&-li {
-			color: white;
+			color: #ffffff;
 		}
 	}
 }
 
 .footer {
-	background-color: #57585B;
+	background-color: #57585b;
 	margin-top: -20px;
 	margin-left: 41px;
 
@@ -128,7 +128,7 @@
 			list-style: none;
 
 			&-li {
-				color: #EDEDED;
+				color: #ededed;
 				text-decoration: none;
 
 				&1 {
