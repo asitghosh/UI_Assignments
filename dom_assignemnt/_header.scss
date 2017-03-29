@@ -1,0 +1,38 @@
+.header {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+	color: #D2D5D9;
+	padding: 10px;
+
+	&-image {
+		background: url("appdirect_footer.png");
+		height: 24px;
+		width: 33px;
+		display: block;
+		background-size: 100% 100%;
+	}
+
+	&-ul-li-image {
+		margin-left: 172px;
+	}
+
+	&-ul-li-myapps {
+		margin-left: 11px;
+		background-color: black;
+	}
+
+	&-ul-li-marketplace {
+		margin-left: 11px;
+	}
+
+	&-ul-li-account {
+		margin-left: 659px;
+	}
+
+	&-ul-li-profilename {
+		margin-left: 11px;
+		background-color: black;
+	}
+}

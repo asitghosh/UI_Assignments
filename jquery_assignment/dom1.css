@@ -1,0 +1,198 @@
+.header {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: #D2D5D9;
+  padding: 10px; }
+  .header-image {
+    background: url("appdirect_footer.png");
+    height: 24px;
+    width: 33px;
+    display: block;
+    background-size: 100% 100%; }
+  .header-ul-li-image {
+    margin-left: 172px; }
+  .header-ul-li-myapps {
+    margin-left: 11px;
+    background-color: black; }
+  .header-ul-li-marketplace {
+    margin-left: 11px; }
+  .header-ul-li-account {
+    margin-left: 659px; }
+  .header-ul-li-profilename {
+    margin-left: 11px;
+    background-color: black; }
+
+.section-ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none; }
+  .section-ul-li-div-ul {
+    list-style: none;
+    display: flex; }
+    .section-ul-li-div-ul-li-ul-registrationpage {
+      list-style: none;
+      margin-left: 40px;
+      font-size: 20px; }
+    .section-ul-li-div-ul-li-ul-dashboard {
+      list-style: none;
+      margin-left: 96px;
+      font-size: 20px; }
+  .section-ul-li-div-registraionpagedashboard {
+    display: flex; }
+  .section-ul-li-div-ul-registraionpage {
+    list-style: none; }
+  .section-ul-li-div-ul-div-registraionpage {
+    border: 2px solid #999;
+    margin-left: 106px;
+    width: 470px;
+    padding-bottom: 20px; }
+  .section-ul-li-div-ul-div-registraionpage-firstname {
+    display: flex;
+    list-style: none; }
+  .section-ul-li-div-ul-div-registraionpage-firstname-textbox {
+    margin-left: 200px;
+    margin-top: -36px; }
+  .section-ul-li-div-ul-div-registraionpage-lastname {
+    display: flex;
+    list-style: none;
+    margin-top: 21px; }
+  .section-ul-li-div-ul-div-registraionpage-lastname-textbox {
+    margin-left: 122px;
+    margin-top: 20px; }
+  .section-ul-li-div-ul-div-registraionpage-paddres {
+    display: flex;
+    list-style: none; }
+  .section-ul-li-div-ul-div-registraionpage-paddress-textbox {
+    margin-left: 113px;
+    margin-top: 20px; }
+  .section-ul-li-div-ul-div-registraionpage-checkbox {
+    display: flex;
+    list-style: none; }
+  .section-ul-li-div-ul-div-registraionpage-checkbox-style {
+    margin-left: 142px; }
+  .section-ul-li-div-ul-div-registraionpage-caddress {
+    display: flex;
+    list-style: none; }
+  .section-ul-li-div-ul-div-registraionpage-caddress-textbox {
+    margin-left: 113px;
+    margin-top: 21px; }
+  .section-ul-li-div-ul-div-registraionpage-email {
+    display: flex;
+    list-style: none; }
+  .section-ul-li-div-ul-div-registraionpage-phoneno {
+    display: flex;
+    list-style: none; }
+  .section-ul-li-div-ul-div-registraionpage-phoneno-textbox {
+    margin-left: 124px;
+    margin-top: 21px; }
+  .section-ul-li-div-ul-div-registraionpage-password {
+    display: flex;
+    list-style: none; }
+  .section-ul-li-div-ul-div-registraionpage-password-textbox {
+    margin-left: 131px;
+    margin-top: 21px; }
+  .section-ul-li-div-ul-div-registraionpage-confirmpassword {
+    display: flex;
+    list-style: none; }
+  .section-ul-li-div-ul-div-registraionpage-confirmpassword-textbox {
+    margin-left: 60px;
+    margin-top: 20px; }
+  .section-ul-li-div-ul-div-registraionpage-button {
+    display: flex;
+    list-style: none; }
+  .section-ul-li-div-ul-div-registraionpage-button-reset-style {
+    margin-left: 115px; }
+  .section-ul-li-div-ul-div-registraionpage-button-reset {
+    background-color: blue;
+    color: white;
+    font-size: 16px; }
+  .section-ul-li-div-ul-div-registraionpage-button-submit-style {
+    margin-left: 44px; }
+  .section-ul-li-div-ul-div-registraionpage-button-submit {
+    background-color: green;
+    color: white;
+    font-size: 16px; }
+  .section-ul-li-div-ul-div-dashboard {
+    list-style: none;
+    border: 2px solid #999;
+    margin-left: 106px;
+    width: 470px;
+    padding-bottom: 20px;
+    list-style-type: none;
+    overflow-y: scroll;
+    height: 609px; }
+
+.toprightddl {
+  list-style: none;
+  position: absolute;
+  margin-left: -39px;
+  background-color: black; }
+  .toprightddl-li {
+    padding-top: 1px; }
+    .toprightddl-li-a {
+      text-decoration: none;
+      color: #D2D5D9;
+      background-color: black; }
+
+.section-ul-li-div-ul-div-registraionpage-email-textbox {
+  margin-left: 133px;
+  margin-top: 21px; }
+
+.hide {
+  display: none; }
+
+.section-ul-li-div-ul-li-ul-dashboard-li {
+  margin-left: -83px; }
+  .section-ul-li-div-ul-li-ul-dashboard-li-a {
+    text-decoration: none;
+    background-color: #D2D5D9;
+    FONT-SIZE: 41px;
+    color: black;
+    MARGIN-LEFT: -19px; }
+
+.section-ul-li-div-ul-li-ul-dashboard-li-a:hover + .email-dashboard {
+  display: flex; }
+
+.email-dashboard {
+  display: none;
+  background-color: #D2D5D9;
+  MARGIN-TOP: 5PX;
+  MARGIN-RIGHT: 71px; }
+
+.footer {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  color: #D2D5D9;
+  padding: 10px;
+  font-size: 10px; }
+  .footer-li-image {
+    margin-left: 152px; }
+  .footer-li-image-style {
+    background: url("appdirect_footer.png");
+    height: 12px;
+    width: 16px;
+    display: block;
+    background-size: 100% 100%; }
+  .footer-li-poweredbyappdirect {
+    margin-left: 10px; }
+  .footer-li-EnglishUnitedStates {
+    margin-left: 164px;
+    background-color: white; }
+  .footer-li-helpcentre {
+    margin-left: 20px; }
+  .footer-li-privacypolicy {
+    margin-left: 20px; }
+  .footer-li-termsandconsitions {
+    margin-left: 20px; }
+  .footer-li-contact {
+    margin-left: 20px; }
+
+#ddl {
+  background: transparent;
+  color: #D2D5D9;
+  border: none; }
+
+/*# sourceMappingURL=dom1.css.map */

@@ -1,0 +1,213 @@
+.section-ul {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+
+	&-li-div-ul {
+		list-style: none;
+		display: flex;
+
+		&-li-ul-registrationpage {
+			list-style: none;
+			margin-left: 40px;
+			font-size: 20px;
+		}
+
+		&-li-ul-dashboard {
+			list-style: none;
+			margin-left: 96px;
+			font-size: 20px;
+		}
+	}
+
+	&-li-div {
+		&-registraionpagedashboard {
+			display: flex;
+		}
+
+		&-ul-registraionpage {
+			list-style: none;
+		}
+
+		&-ul-div {
+			&-registraionpage {
+				border: 2px solid #999;
+				margin-left: 106px;
+				width: 470px;
+				padding-bottom: 20px;
+			}
+
+			&-registraionpage-firstname {
+				display: flex;
+				list-style: none;
+			}
+
+			&-registraionpage-firstname-textbox {
+				margin-left: 200px;
+				margin-top: -36px;
+			}
+
+			&-registraionpage-lastname {
+				display: flex;
+				list-style: none;
+				margin-top: 21px;
+			}
+
+			&-registraionpage-lastname-textbox {
+				margin-left: 122px;
+				margin-top: 20px;
+			}
+
+			&-registraionpage-paddres {
+				display: flex;
+				list-style: none;
+			}
+
+			&-registraionpage-paddress-textbox {
+				margin-left: 113px;
+				margin-top: 20px;
+			}
+
+			&-registraionpage-checkbox {
+				display: flex;
+				list-style: none;
+			}
+
+			&-registraionpage-checkbox-style {
+				margin-left: 142px;
+			}
+
+			&-registraionpage-caddress {
+				display: flex;
+				list-style: none;
+			}
+
+			&-registraionpage-caddress-textbox {
+				margin-left: 113px;
+				margin-top: 21px;
+			}
+
+			&-registraionpage-email {
+				display: flex;
+				list-style: none;
+			}
+
+			&-registraionpage-phoneno {
+				display: flex;
+				list-style: none;
+			}
+
+			&-registraionpage-phoneno-textbox {
+				margin-left: 124px;
+				margin-top: 21px;
+			}
+
+			&-registraionpage-password {
+				display: flex;
+				list-style: none;
+			}
+
+			&-registraionpage-password-textbox {
+				margin-left: 131px;
+				margin-top: 21px;
+			}
+
+			&-registraionpage-confirmpassword {
+				display: flex;
+				list-style: none;
+			}
+
+			&-registraionpage-confirmpassword-textbox {
+				margin-left: 60px;
+				margin-top: 20px;
+			}
+
+			&-registraionpage-button {
+				display: flex;
+				list-style: none;
+			}
+
+			&-registraionpage-button-reset-style {
+				margin-left: 115px;
+			}
+
+			&-registraionpage-button-reset {
+				background-color: blue;
+				color: white;
+				font-size: 16px;
+			}
+
+			&-registraionpage-button-submit-style {
+				margin-left: 44px;
+			}
+
+			&-registraionpage-button-submit {
+				background-color: green;
+				color: white;
+				font-size: 16px;
+			}
+
+			&-dashboard {
+				list-style: none;
+				border: 2px solid #999;
+				margin-left: 106px;
+				width: 470px;
+				padding-bottom: 20px;
+				list-style-type: none;
+				overflow-y: scroll;
+				height: 609px;
+			}
+		}
+	}
+}
+
+.toprightddl {
+	list-style: none;
+	position: absolute;
+	margin-left: -39px;
+	background-color: black;
+
+	&-li {
+		padding-top: 1px;
+
+		&-a {
+			text-decoration: none;
+			color: #D2D5D9;
+			background-color: black;
+		}
+	}
+}
+
+.section-ul-li-div-ul-div-registraionpage-email-textbox {
+	margin-left: 133px;
+	margin-top: 21px;
+}
+
+.hide {
+	display: none;
+}
+
+.section-ul-li-div-ul-li-ul-dashboard-li {
+	margin-left: -83px;
+
+	&-a {
+		text-decoration: none;
+		background-color: #D2D5D9;
+		FONT-SIZE: 41px;
+		color: black;
+		MARGIN-LEFT: -19px;
+	}
+}
+
+.section-ul-li-div-ul-li-ul-dashboard-li-a:hover {
+	+ .email-dashboard {
+		display: flex;
+	}
+}
+
+.email-dashboard {
+	display: none;
+	background-color: #D2D5D9;
+	MARGIN-TOP: 5PX;
+	MARGIN-RIGHT: 71px;
+}

@@ -1,0 +1,51 @@
+.footer {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	color: #D2D5D9;
+	padding: 10px;
+	font-size: 10px;
+
+	&-li-image {
+		margin-left: 152px;
+	}
+
+	&-li-image-style {
+		background: url("appdirect_footer.png");
+		height: 12px;
+		width: 16px;
+		display: block;
+		background-size: 100% 100%;
+	}
+
+	&-li-poweredbyappdirect {
+		margin-left: 10px;
+	}
+
+	&-li-EnglishUnitedStates {
+		margin-left: 164px;
+		background-color: white;
+	}
+
+	&-li-helpcentre {
+		margin-left: 20px;
+	}
+
+	&-li-privacypolicy {
+		margin-left: 20px;
+	}
+
+	&-li-termsandconsitions {
+		margin-left: 20px;
+	}
+
+	&-li-contact {
+		margin-left: 20px;
+	}
+}
+
+#ddl {
+	background: transparent;
+	color: #D2D5D9;
+	border: none;
+}
