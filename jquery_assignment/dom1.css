@@ -2,8 +2,8 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  background-color: black;
-  color: #D2D5D9;
+  background-color: #000000;
+  color: #d2d5d9;
   padding: 10px; }
   .header-image {
     background: url("appdirect_footer.png");
@@ -15,14 +15,14 @@
     margin-left: 172px; }
   .header-ul-li-myapps {
     margin-left: 11px;
-    background-color: black; }
+    background-color: #000000; }
   .header-ul-li-marketplace {
     margin-left: 11px; }
   .header-ul-li-account {
     margin-left: 659px; }
   .header-ul-li-profilename {
     margin-left: 11px;
-    background-color: black; }
+    background-color: #000000; }
 
 .section-ul {
   display: flex;
@@ -105,14 +105,14 @@
   .section-ul-li-div-ul-div-registraionpage-button-reset-style {
     margin-left: 115px; }
   .section-ul-li-div-ul-div-registraionpage-button-reset {
-    background-color: blue;
-    color: white;
+    background-color: #0000ff;
+    color: #ffffff;
     font-size: 16px; }
   .section-ul-li-div-ul-div-registraionpage-button-submit-style {
     margin-left: 44px; }
   .section-ul-li-div-ul-div-registraionpage-button-submit {
-    background-color: green;
-    color: white;
+    background-color: #00ff00;
+    color: #ffffff;
     font-size: 16px; }
   .section-ul-li-div-ul-div-dashboard {
     list-style: none;
@@ -128,13 +128,13 @@
   list-style: none;
   position: absolute;
   margin-left: -39px;
-  background-color: black; }
+  background-color: #000000; }
   .toprightddl-li {
     padding-top: 1px; }
     .toprightddl-li-a {
       text-decoration: none;
-      color: #D2D5D9;
-      background-color: black; }
+      color: #d2d5d9;
+      background-color: #000000; }
 
 .section-ul-li-div-ul-div-registraionpage-email-textbox {
   margin-left: 133px;
@@ -147,25 +147,25 @@
   margin-left: -83px; }
   .section-ul-li-div-ul-li-ul-dashboard-li-a {
     text-decoration: none;
-    background-color: #D2D5D9;
-    FONT-SIZE: 41px;
-    color: black;
-    MARGIN-LEFT: -19px; }
+    background-color: #d2d5d9;
+    font-size: 41px;
+    color: #000000;
+    margin-left: -19px; }
 
 .section-ul-li-div-ul-li-ul-dashboard-li-a:hover + .email-dashboard {
   display: flex; }
 
 .email-dashboard {
   display: none;
-  background-color: #D2D5D9;
-  MARGIN-TOP: 5PX;
-  MARGIN-RIGHT: 71px; }
+  background-color: #d2d5d9;
+  margin-top: 5PX;
+  margin-right: 71px; }
 
 .footer {
   list-style: none;
   display: flex;
   flex-direction: row;
-  color: #D2D5D9;
+  color: #d2d5d9;
   padding: 10px;
   font-size: 10px; }
   .footer-li-image {
@@ -180,7 +180,7 @@
     margin-left: 10px; }
   .footer-li-EnglishUnitedStates {
     margin-left: 164px;
-    background-color: white; }
+    background-color: #ffffff; }
   .footer-li-helpcentre {
     margin-left: 20px; }
   .footer-li-privacypolicy {
@@ -192,7 +192,8 @@
 
 #ddl {
   background: transparent;
-  color: #D2D5D9;
+  color: #d2d5d9;
   border: none; }
 
 /*# sourceMappingURL=dom1.css.map */
+
