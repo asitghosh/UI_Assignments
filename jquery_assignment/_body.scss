@@ -132,8 +132,8 @@
 			}
 
 			&-registraionpage-button-reset {
-				background-color: blue;
-				color: white;
+				background-color: #0000ff;
+				color: #ffffff;
 				font-size: 16px;
 			}
 
@@ -142,8 +142,8 @@
 			}
 
 			&-registraionpage-button-submit {
-				background-color: green;
-				color: white;
+				background-color: #00ff00;
+				color: #000000;
 				font-size: 16px;
 			}
 
@@ -165,15 +165,15 @@
 	list-style: none;
 	position: absolute;
 	margin-left: -39px;
-	background-color: black;
+	background-color: #000000;
 
 	&-li {
 		padding-top: 1px;
 
 		&-a {
 			text-decoration: none;
-			color: #D2D5D9;
-			background-color: black;
+			color: #d2d5d9;
+			background-color: #000000;
 		}
 	}
 }
@@ -192,10 +192,10 @@
 
 	&-a {
 		text-decoration: none;
-		background-color: #D2D5D9;
-		FONT-SIZE: 41px;
-		color: black;
-		MARGIN-LEFT: -19px;
+		background-color: #d2d5d9;
+		font-size: 41px;
+		color: #000000;
+		margin-left: -19px;
 	}
 }
 
@@ -207,7 +207,7 @@
 
 .email-dashboard {
 	display: none;
-	background-color: #D2D5D9;
-	MARGIN-TOP: 5PX;
-	MARGIN-RIGHT: 71px;
+	background-color: #d2d5d9;
+	margin-top: 5PX;
+	margin-right: 71px;
 }
